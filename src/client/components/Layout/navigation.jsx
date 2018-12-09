@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { NavLink } from 'react-router-dom'
 
 class Navigation extends Component {
   render() {
@@ -6,7 +7,7 @@ class Navigation extends Component {
         <nav
             className="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
           <div className="container">
-            <a className="navbar-brand" href="#">M.C. Portal</a>
+            <NavLink className="navbar-brand" to="">M.C. Portal</NavLink>
             <button className="navbar-toggler" type="button"
                     data-toggle="collapse" data-target="#navbarResponsive"
                     aria-controls="navbarResponsive" aria-expanded="false"
@@ -16,7 +17,7 @@ class Navigation extends Component {
             <div className="collapse navbar-collapse" id="navbarResponsive">
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
-                  <a className="nav-link" href="#">About Me</a>
+                  <NavLink className="nav-link" to="/aboutme">About Me</NavLink>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#">Log In</a>

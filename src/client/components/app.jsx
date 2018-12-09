@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import Welcome from './Welcome'
+import Welcome from './Home'
 
 class App extends Component {
   render() {
