@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
-import  { Alert } from 'react-bootstrap'
+import React, { Component } from 'react'
+
+import Welcome from './Welcome'
 
 class App extends Component {
   render() {
-    return <Alert bsStyle="warning">
-      <strong>Holy guacamole!</strong> Best check yo self, you're not looking too
-      good.
-    </Alert>;
+    return [
+        <Welcome key={1} />,
+  ]
   }
 }
 
-export default App;
+export default App

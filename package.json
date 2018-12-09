@@ -5,7 +5,8 @@
   "scripts": {
     "start": "nodemon %NODE_DEBUG_OPTION% src/server/index.js",
     "webpack": "./node_modules/.bin/webpack -w",
-    "test": "mocha --compilers babel-core/register ./test/*test.js"
+    "test": "mocha --compilers babel-core/register ./test/*test.js",
+    "webpack-dev": "webpack-dev-server --open"
   },
   "dependencies": {
     "colors": "^1.3.2",
@@ -29,18 +30,18 @@
     "babel-cli": "^6.26.0",
     "babel-loader": "^8.0.4",
     "chai": "^4.2.0",
+    "cryptiles": ">=4.1.2",
     "css-loader": "^1.0.1",
     "enzyme": "^3.7.0",
+    "hawk": ">=3.1.3",
+    "hoek": ">=4.2.1",
     "mocha": "^5.2.0",
     "node-sass": "^4.10.0",
+    "request": ">=2.68.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "webpack": "^4.18.1",
     "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.8",
-    "request": ">=2.68.0",
-    "cryptiles": ">=4.1.2",
-    "hawk": ">=3.1.3",
-    "hoek": ">=4.2.1"
+    "webpack-dev-server": "^3.1.10"
   }
 }
