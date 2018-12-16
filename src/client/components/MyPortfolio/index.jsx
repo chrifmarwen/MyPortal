@@ -1,11 +1,8 @@
 import React from 'react'
-import Header from './header.jsx'
-import Section from './section.jsx'
-
 import Layout from '../Layout'
+import Section from './section.jsx'
 
 export default () =>
   <Layout>
-    <Header/>
     <Section/>
   </Layout>

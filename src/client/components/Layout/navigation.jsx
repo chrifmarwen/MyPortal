@@ -19,9 +19,9 @@ class Navigation extends Component {
                 <li className="nav-item">
                   <NavLink className="nav-link" to="/aboutme">About Me</NavLink>
                 </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#">Log In</a>
-                </li>
+                {/*<li className="nav-item">*/}
+                {/*<a className="nav-link" href="#">Log In</a>*/}
+                {/*</li>*/}
               </ul>
             </div>
           </div>

@@ -1,18 +1,21 @@
-var webpack = require('webpack');
-var path = require('path');
+const webpack = require('webpack')
+const path = require('path')
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
-var BUILD_DIR = path.resolve(__dirname, './build');
-var APP_DIR = path.resolve(__dirname, './src/client');
+let BUILD_DIR = path.resolve(__dirname, './build')
+let APP_DIR = path.resolve(__dirname, './src/client')
 
 const config = {
   mode: 'development',
   entry: {
-    main: APP_DIR + '/index.js'
+    main: APP_DIR + '/index.js',
   },
   output: {
     filename: 'bundle.js',
     path: BUILD_DIR,
+    sourceMapFilename: 'bundle.map'
   },
+  devtool: '#source-map',
   devServer: {
     contentBase: './src/server/public'
   },
@@ -21,21 +24,28 @@ const config = {
       {
         test: /(\.css|.scss)$/,
         use: [{
-          loader: "style-loader" // creates style nodes from JS strings
+          loader: 'style-loader' // creates style nodes from JS strings
         }, {
-          loader: "css-loader" // translates CSS into CommonJS
+          loader: 'css-loader' // translates CSS into CommonJS
         }, {
-          loader: "sass-loader" // compiles Sass to CSS
+          loader: 'sass-loader' // compiles Sass to CSS
         }]
       },
-      {test: /\.js$/ , loader:'babel-loader', exclude: '/node_modules/'},
-      {test: /\.jsx$/ , loader:'babel-loader', exclude: '/node_modules/'}
+      { test: /\.js$/, loader: 'babel-loader', exclude: '/node_modules/' },
+      { test: /\.jsx$/, loader: 'babel-loader', exclude: '/node_modules/' }
     ],
-
+  },
+  optimization: {
+    minimize: true,
+    minimizer: [
+      new UglifyJsPlugin({
+        sourceMap: true
+      })
+    ]
   },
   resolve: {
-    extensions: [".jsx", ".js"]
+    extensions: ['.jsx', '.js']
   },
-};
+}
 
-module.exports = config;
+module.exports = config

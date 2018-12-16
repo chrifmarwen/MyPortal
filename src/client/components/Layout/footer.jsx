@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 
 class Footer extends Component {
-  render() {
-    let currentYear = new Date().getFullYear();
+  render () {
+    let currentYear = new Date().getFullYear()
 
     return <footer className="py-5 bg-black">
       <div className="container">
@@ -12,4 +12,4 @@ class Footer extends Component {
   }
 }
 
-export default Footer;
+export default Footer
