@@ -8,6 +8,7 @@ import {
 import {
   HomePage,
   AboutMePage,
+  MyPortfolioPage
 } from './pages.jsx'
 
 import Whoops404 from './components/Layout/Whoop404'
@@ -20,6 +21,7 @@ render(
       <div className="main">
         <Switch>
           <Route exact path="/" component={HomePage} />
+          <Router path="/my-portfolio" component={MyPortfolioPage} />
           <Route path="/aboutme" component={AboutMePage} />
           <Route component={Whoops404} />
         </Switch>
