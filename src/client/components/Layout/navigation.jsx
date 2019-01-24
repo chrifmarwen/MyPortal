@@ -19,6 +19,9 @@ class Navigation extends Component {
               <li className="nav-item">
                 <NavLink className="nav-link" to="/my-portfolio">My portfolio</NavLink>
               </li>
+              <li className="nav-item">
+                <a className="nav-link"  href="http://www.datagrid.marwen-cherif.com">Datagrid</a>
+              </li>
               {/*<li className="nav-item">*/}
               {/*<NavLink className="nav-link" to="/aboutme">About Me</NavLink>*/}
               {/*</li>*/}
