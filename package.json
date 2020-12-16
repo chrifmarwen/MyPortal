@@ -2,13 +2,14 @@
   "name": "my-portal",
   "private": true,
   "scripts": {
-    "install": "lerna bootstrap",
-    "clean": "lerna run clean && rimraf node_modules",
-    "test": "lerna run test",
-    "build": "lerna run build",
-    "start": "lerna run --scope @myApp/webapp start"
+    "install": "yarn lerna bootstrap",
+    "clean": "yarn lerna run clean && rimraf node_modules",
+    "test": "yarn lerna run test",
+    "build": "yarn lerna run build",
+    "start": "yarn lerna run --scope @my-portal/webapp start"
   },
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "lerna": "^3.20.2",
     "rimraf": "^3.0.2"
   }

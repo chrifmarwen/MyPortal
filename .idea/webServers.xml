@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="355ab7b6-c34b-4d6c-8fb6-d4345bb33ccc" name="My Server" url="http://marwen-cherif.com">
+        <fileTransfer rootFolder="/var/www/html" accessType="SFTP" host="51.158.161.144" port="22" sshConfigId="65a5b164-24ee-4d09-8beb-dd9dcfed3725" sshConfig="cherifmarwen@51.158.161.144:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

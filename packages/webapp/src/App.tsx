@@ -1,7 +1,7 @@
 import React from "react";
 
-import getValue from "@monorepo/common/module1";
-import { Module2Component } from "@monorepo/common/module2";
+import getValue from "@my-portal/common/module1";
+import { Module2Component } from "@my-portal/common/module2";
 
 import logo from "./logo.svg";
 import "./App.css";
