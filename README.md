@@ -1,15 +1,33 @@
-## [My Portal](http://89.234.181.149/#/)
+# lerna-react-ts-transpile-modules
+An example monorepo with lerna + CRA project in TypeScript with transpile module support
 
-My personal portal is centralizing all of my skills, personal projects, experiences and my positive energy for new technologies.
-
-### How to Install & Run
+## Clean project
 
 ```
-npm install
-npm run webpack
+npm run clean
+```
+
+## Install
+
+```
+npm run install
+```
+
+## Start webapp
+
+```
 npm run start
 ```
 
-### Used Technologies
+## Run tests
 
-The MC Portal is a Node.js application served with a React in front, with a Mysql database.
+```
+npm run test
+```
+
+
+## Build
+
+```
+npm run build
+```
