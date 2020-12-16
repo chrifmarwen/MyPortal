@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4aaae68-4b11-4078-b47c-28c1a44c2cba" name="Default Changelist" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/common/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/webapp/yarn.lock" afterDir="false" />
+    <list default="true" id="f4aaae68-4b11-4078-b47c-28c1a44c2cba" name="Default Changelist" comment="upgrade TS version&#10;TS svg">
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/common/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/common/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/webapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/webapp/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/webapp/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/webapp/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/webapp/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/webapp/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,12 +42,20 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
     <property name="js.ns.project" value="true" />
     <property name="js.ns.project.flavor" value="JavaScript" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\dorki\WebstormProjects\MyPortal\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="ts.external.directory.path" value="C:\Users\dorki\WebstormProjects\MyPortal\packages\webapp\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -128,7 +131,7 @@
       <workItem from="1607980789586" duration="630000" />
       <workItem from="1608016172691" duration="50000" />
       <workItem from="1608095472794" duration="49000" />
-      <workItem from="1608096024466" duration="5302000" />
+      <workItem from="1608096024466" duration="6369000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1608096275388</created>
@@ -137,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608096275388</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="upgrade TS version&#10;TS svg">
+      <created>1608101659963</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608101659963</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +168,11 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="upgrade TS version&#10;TS svg" />
+    <option name="LAST_COMMIT_MESSAGE" value="upgrade TS version&#10;TS svg" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

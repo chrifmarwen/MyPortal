@@ -26,9 +26,6 @@
     "react-app-rewired": "^2.1.5",
     "react-scripts": "3.4.1"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
   "browserslist": {
     "production": [
       ">0.2%",
